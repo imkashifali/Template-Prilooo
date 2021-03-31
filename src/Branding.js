@@ -1,31 +1,65 @@
 import React from "react";
 import "./Branding.css";
-import { Container, Row, Col, ProgressBar } from "react-bootstrap";
-import { Star } from "react-bootstrap-icons";
+import { Star, Alarm, Bag, Heart } from "react-bootstrap-icons";
 
 const Branding = () => {
   return (
-    <Container fluid className="Branding">
-      <Row>
-        <Col>
-          <Star
-            height={62}
-            width={62}
+    <div class="container" className="Branding">
+      <div class="row">
+        <div class="col-sm">
+          <Bag
+            height={42}
+            width={32}
             color="white"
             className="branding__Icons"
           />
-          <div className="divs">
-            <p className="pa">548</p>
-            <span>Project Completed</span>
+          <div className="branding__divs">
+            <p className="branding__pa">548</p>
+            <span className="branding__pa">Project Completed</span>
           </div>
-        </Col>
+        </div>
 
-        <Col>Two</Col>
-        <Col>Three</Col>
+        <div class="col-sm">
+          <Alarm
+            height={42}
+            width={32}
+            color="white"
+            className="branding__Icons"
+          />
+          <div className="branding__divs">
+            <p className="branding__pa">1465</p>
+            <span className="branding__pa">Working Hours</span>
+          </div>
+        </div >
+        <div class="col-sm">
+          {" "}
+          <Star
+            height={42}
+            width={32}
+            color="white"
+            className="branding__Icons"
+          />
+          <div className="branding__divs">
+            <p className="branding__pa">612</p>
+            <span className="branding__pa">Positive FeedBack</span>
+          </div>
+        </div>
 
-        <Col>Four</Col>
-      </Row>
-    </Container>
+        <div class="col-sm">
+          {" "}
+          <Heart
+            height={42}
+            width={32}
+            color="white"
+            className="branding__Icons"
+          />
+          <div className="branding__divs">
+            <p className="branding__pa">548</p>
+            <span className="branding__pa">Happy Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 

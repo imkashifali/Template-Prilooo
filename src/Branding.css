@@ -1,12 +1,17 @@
 .branding__Icons {
-  /* margin-left: 42px;
-  margin-top: 32px; */
+  margin-bottom: -103px;
+  margin-left: 60px;
 }
 .Branding {
+  padding-top: 45px;
   background-color: #10c9c3;
-  /* height: 250px; */
+  padding-bottom: 43px;
 }
-.divs {
-  padding-left: 68px;
+.branding__divs {
   text-align: center;
+  padding-left: 40px;
+}
+.branding__pa {
+  color: white;
+  font-weight: 800;
 }

@@ -1,0 +1,21 @@
+.conatiners {
+  background-color: #f5f5f5;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.Supports {
+  padding-left: 61px;
+  margin-left: 75px;
+}
+.Supports__para {
+  padding-left: 110px;
+  font-weight: 700;
+}
+.Supports__span {
+  display: block;
+  padding-left: 90px;
+  color: #c0c0c0;
+  font-size: 14px;
+  font-weight: 500;
+}
