@@ -1,0 +1,29 @@
+.headers {
+  background-color: #e9e9e9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.headers__heading {
+  padding-left: 100px;
+  font-weight: bolder;
+  font-size: 36px;
+}
+.headers__Paragraph {
+  padding-left: 100px;
+  color: #858585;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.headers__Button {
+  margin-top: 19px;
+  margin-left: 98px;
+  background-color: #10c9c3 !important;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 12px 14px;
+}
+.headers__Button:hover {
+  color: black;
+}
