@@ -1,7 +1,9 @@
 import React from "react";
 import "./About.css";
+import signature from './assests/signature.png'
 const About = () => {
   return (
+    <div class="container-fluid">
     <div class="jumbotron text-center">
       <h1 class="heading">ABOUT US</h1>
       <p class="para">
@@ -11,6 +13,8 @@ const About = () => {
         encyclopedia; however
         <br /> requirement to be familiar with .
       </p>
+      <img src={signature} class="img-fluid" alt="..."/>
+    </div>
     </div>
   );
 };

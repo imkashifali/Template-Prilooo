@@ -14,8 +14,11 @@ const Branding = () => {
             className="branding__Icons"
           />
           <div className="branding__divs">
-            <p className="branding__pa">548</p>
-            <span className="branding__pa">Project Completed</span>
+            <p className="branding__pa">
+              548
+              <br />
+              <span className="branding__pa">Project Completed</span>
+            </p>
           </div>
         </div>
 
@@ -27,10 +30,13 @@ const Branding = () => {
             className="branding__Icons"
           />
           <div className="branding__divs">
-            <p className="branding__pa">1465</p>
-            <span className="branding__pa">Working Hours</span>
+            <p className="branding__pa">
+              1465
+              <br />
+              <span className="branding__pa">Working Hours</span>
+            </p>
           </div>
-        </div >
+        </div>
         <div class="col-sm">
           {" "}
           <Star
@@ -40,8 +46,11 @@ const Branding = () => {
             className="branding__Icons"
           />
           <div className="branding__divs">
-            <p className="branding__pa">612</p>
-            <span className="branding__pa">Positive FeedBack</span>
+            <p className="branding__pa">
+              612
+              <br />
+              <span className="branding__pa">Positive FeedBack</span>
+            </p>
           </div>
         </div>
 
@@ -54,8 +63,11 @@ const Branding = () => {
             className="branding__Icons"
           />
           <div className="branding__divs">
-            <p className="branding__pa">548</p>
-            <span className="branding__pa">Happy Clients</span>
+            <p className="branding__pa">
+              548
+              <br />
+              <span className="branding__pa">Happy Clients</span>
+            </p>
           </div>
         </div>
       </div>

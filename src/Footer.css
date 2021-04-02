@@ -1,0 +1,18 @@
+.Footers {
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 700;
+}
+.Footer__Para {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.Footers {
+  color: white;
+}
+.footer {
+  background-color: black;
+  padding-top: 80px !important;
+  padding-bottom: 60px !important;
+}

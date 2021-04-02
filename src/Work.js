@@ -4,32 +4,34 @@ import ab from "./assests/ab.png";
 import cd from "./assests/cd.png";
 const Work = () => {
   return (
-    <div class="container-fluid">
-      <div class="row row-cols-4">
-        <div class="col ims ">
-          <img src={ab} alt="" />
+    <div class="container-fluid ">
+      <div class="row counts">
+        <div class="col-md-3 col-sm-6 ">
+          <img src={ab} alt="" class="img-thumbnail ims" />
         </div>
-        <div class="col ims">
-          <img src={cd} alt="" />
+        <div class="col-md-3 col-sm-6">
+          <img src={cd} alt="" class="img-thumbnail ims" />
         </div>
-        <div class="col ims">
-          <img src={ab} alt="" />
+        <div class="col-md-3 col-sm-6 ">
+          <img src={ab} alt="" class="img-thumbnail ims" />
         </div>
-        <div class="col ims">
-          <img src={cd} alt="" />
+        <div class="col-md-3  col-sm-6 ">
+          <img src={cd} alt="" class="img-thumbnail ims" />
         </div>
+      </div>
 
-        <div class="col ims">
-          <img src={cd} alt="" />
+      <div class="row counts">
+        <div class="col-md-3  ">
+          <img src={cd} alt="" class="img-thumbnail ims" />
         </div>
-        <div class="col ims">
-          <img src={ab} alt="" />
+        <div class="col-md-3 ">
+          <img src={ab} alt="" class="img-thumbnail ims" />
         </div>
-        <div class="col ims">
-          <img src={cd} alt="" />
+        <div class="col-md-3 ">
+          <img src={cd} alt="" class="img-thumbnail ims" />
         </div>
-        <div class="col ims">
-          <img src={ab} alt="" />
+        <div class="col-md-3 ">
+          <img src={ab} alt="" class="img-thumbnail ims" />
         </div>
       </div>
     </div>

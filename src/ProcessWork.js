@@ -1,5 +1,6 @@
 import React from "react";
 import "./ProcessWork.css";
+import video from './assests/video.png'
 const ProcessWork = () => {
   return (
     <div class="jumbotron text-center">
@@ -9,6 +10,7 @@ const ProcessWork = () => {
         pillars
         <br /> developed many policies and guidelines to improve.
       </p>
+      <img src={video} class="img-fluid" alt="..."></img>
     </div>
   );
 };

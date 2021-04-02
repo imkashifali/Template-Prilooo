@@ -4,6 +4,7 @@
 .pskill {
   padding-top: 80px;
   background-color: #f9f9f9;
+  padding-bottom: 30px;
 }
 .heading {
   padding-left: 75px;
@@ -17,7 +18,4 @@
 }
 .prog {
   margin-left: 77px;
-}
-#ids {
-  background-color: #10c9c3 !important;
 }

@@ -10,6 +10,8 @@ import ProcessWork from "./ProcessWork";
 import Supports from "./Supports";
 import Sliders from "./Sliders";
 import Tags from "./Tags";
+import Forms from "./Forms";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -19,11 +21,13 @@ function App() {
       <About />
       <Progress />
       <Branding />
-      <Work />
       <ProcessWork />
+      <Work />
       <Supports />
       <Sliders />
       <Tags />
+      <Forms />
+      <Footer />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .ims {
   overflow: hidden;
-  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
-  transition: transform 100ms ease-in;
+  box-shadow: 0px 6px 18px -4px rgba(0, 0, 0, 0.75);
+  transition: transform 50ms ease-in;
   cursor: pointer;
 }
 .ims:hover {
@@ -11,3 +11,7 @@
   text-align: center;
   background-color: violet;
 }
+.counts {
+  padding-bottom: 44px;
+  padding-top: 44px;
+} 
