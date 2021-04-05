@@ -4,9 +4,9 @@ import { Star, Alarm, Bag, Heart } from "react-bootstrap-icons";
 
 const Branding = () => {
   return (
-    <div class="container" className="Branding">
-      <div class="row">
-        <div class="col-sm">
+    <div class="container-fluid ">
+      <div class="row Branding___conatiner">
+        <div class="col-md-3 col-sm-6">
           <Bag
             height={42}
             width={32}
@@ -22,7 +22,7 @@ const Branding = () => {
           </div>
         </div>
 
-        <div class="col-sm">
+        <div class="col-md-3 col-sm-6">
           <Alarm
             height={42}
             width={32}
@@ -37,7 +37,7 @@ const Branding = () => {
             </p>
           </div>
         </div>
-        <div class="col-sm">
+        <div class="col-md-3 col-sm-6">
           {" "}
           <Star
             height={42}
@@ -54,7 +54,7 @@ const Branding = () => {
           </div>
         </div>
 
-        <div class="col-sm">
+        <div class="col-md-3 col-sm-6">
           {" "}
           <Heart
             height={42}

@@ -1,17 +1,16 @@
-.conatiners {
-  background-color: #f9f9f9;
+.Progress__conatiners {
+  background-color: #f8f9fa;
 }
-.pskill {
+.Progress__skill {
   padding-top: 80px;
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   padding-bottom: 30px;
 }
-.heading {
-  padding-left: 75px;
+.Progress__Heading {
   font-size: 30px !important;
+  font-weight: 900;
 }
-.pargraph {
-  padding-left: 80px;
+.Progress__pargraph {
   font-size: 12px;
   font-weight: 900;
   padding-top: 20px;

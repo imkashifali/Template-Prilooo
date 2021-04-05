@@ -9,24 +9,18 @@ import a5 from "./assests/a4.png";
 const Tags = () => {
   return (
     <div class="container-fluid ">
-      <div class="row conatiners pt-5">
-        <div class="col-md-2">
+      <div class="row Tags__conatiners ">
+        <div class="col-md-3 col-sm-6 pt-5 pb-5">
           <img src={a1} alt="" />
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3 col-sm-6 pt-5 pb-5">
           <img src={a2} alt="" />
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3 col-sm-6 pt-5 pb-5">
           <img src={a3} alt="" />
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3 col-sm-6 pt-5 pb-5">
           <img src={a4} alt="" />
-        </div>
-        <div class="col-md-2">
-          <img src={a5} alt="" />
-        </div>
-        <div class="col-md-2">
-          <img src={a2} alt="" />
         </div>
       </div>
     </div>

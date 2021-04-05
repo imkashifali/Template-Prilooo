@@ -2,10 +2,11 @@
   margin-bottom: -77px;
   margin-left: 60px;
 }
-.Branding {
+.Branding___conatiner {
   padding-top: 45px;
   background-color: #10c9c3;
   padding-bottom: 43px;
+  overflow: hidden;
 }
 .branding__divs {
   text-align: center;

@@ -16,17 +16,29 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="app">
+      {/* 1 */}
       <Navbars />
+      {/* 2 */}
       <Headers />
+      {/* 3 */}
       <About />
+      {/* 4 */}
       <Progress />
+      {/* 5 */}
       <Branding />
+      {/* 6 */}
       <ProcessWork />
+      {/* 7 */}
       <Work />
+      {/* 8 */}
       <Supports />
+      {/* 9 */}
       <Sliders />
+      {/* 10 */}
       <Tags />
+      {/* 11 */}
       <Forms />
+      {/* 12 */}
       <Footer />
     </div>
   );

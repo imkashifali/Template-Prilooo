@@ -7,11 +7,8 @@
 .ims:hover {
   transform: scale(1.07);
 }
-.csl {
-  text-align: center;
-  background-color: violet;
-}
+
 .counts {
-  padding-bottom: 44px;
-  padding-top: 44px;
-} 
+  padding-bottom: 14px;
+  padding-top: 14px;
+}

@@ -6,32 +6,32 @@ const Work = () => {
   return (
     <div class="container-fluid ">
       <div class="row counts">
-        <div class="col-md-3 col-sm-6 ">
-          <img src={ab} alt="" class="img-thumbnail ims" />
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <img src={cd} alt="" class="img-thumbnail ims" />
+        <div class="col-md-3 col-sm-6  col-xs-12">
+          <img src={ab} alt="" class="img-fluid ims p-2" />
         </div>
         <div class="col-md-3 col-sm-6 ">
-          <img src={ab} alt="" class="img-thumbnail ims" />
+          <img src={cd} alt="" class="img-fluid ims p-2" />
+        </div>
+        <div class="col-md-3 col-sm-6 ">
+          <img src={ab} alt="" class="img-fluid ims p-2" />
         </div>
         <div class="col-md-3  col-sm-6 ">
-          <img src={cd} alt="" class="img-thumbnail ims" />
+          <img src={cd} alt="" class="img-fluid ims p-2" />
         </div>
       </div>
 
       <div class="row counts">
-        <div class="col-md-3  ">
-          <img src={cd} alt="" class="img-thumbnail ims" />
+        <div class="col-md-3  col-sm-6">
+          <img src={cd} alt="" class="img-fluid ims p-2" />
         </div>
-        <div class="col-md-3 ">
-          <img src={ab} alt="" class="img-thumbnail ims" />
+        <div class="col-md-3 col-sm-6">
+          <img src={ab} alt="" class="img-fluid ims p-2" />
         </div>
-        <div class="col-md-3 ">
-          <img src={cd} alt="" class="img-thumbnail ims" />
+        <div class="col-md-3 col-sm-6">
+          <img src={cd} alt="" class="img-fluid ims p-2" />
         </div>
-        <div class="col-md-3 ">
-          <img src={ab} alt="" class="img-thumbnail ims" />
+        <div class="col-md-3 col-sm-6">
+          <img src={ab} alt="" class="img-fluid ims p-2" />
         </div>
       </div>
     </div>

@@ -3,14 +3,19 @@ import "./Forms.css";
 const Forms = () => {
   return (
     <div class="container-fluid containers">
-      <div class="Forms">
+      <div class=" Forms">
         <h3 class="Form__project">Need A Project?</h3>
-        <p class="Form__Paragraph">
-          Let us know what you're looking for in an agency.We 'll take a look
-          and see
-          <br /> if this could be the start of something beatiful.
-        </p>
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="Form__Paragraph ">
+              Let us know what you're looking for in an agency.We 'll take a
+              <br />
+              look and see if this could be the start of something beatiful.
+            </p>
+          </div>
+        </div>
       </div>
+
       <div class="row">
         <div class="col"></div>
         <div class="col-6">

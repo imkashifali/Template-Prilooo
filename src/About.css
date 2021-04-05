@@ -9,6 +9,7 @@
   font-size: 16px;
   font-weight: 500;
 }
-.heading {
+.About__heading {
   font-weight: bold;
+  text-align: center;
 }

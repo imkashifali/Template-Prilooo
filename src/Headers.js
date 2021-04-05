@@ -5,8 +5,8 @@ const Headers = () => {
   return (
     <div class="container-fluid headers">
       <div class="row">
-        <div class="col-sm"></div>
-        <div class="col-sm">
+        <div class="col-md-6 col-sm-6"></div>
+        <div class="col-md-6 col-sm-6">
           <h1 class="headers__heading">We Desgin And Develop</h1>
           <p class="headers__Paragraph">
             we are a new design studio based in USA.we Have over
